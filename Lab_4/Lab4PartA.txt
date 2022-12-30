@@ -1,0 +1,16 @@
+public void drawHex()
+{
+  this.turn(30);
+  this.forward(60);
+  this.turn(60);
+  this.forward(60);
+  this.turn(60);
+  this.forward(60);
+  this.turn(60);
+  this.forward(60);
+  this.turn(60);
+  this.forward(60);
+  this.turn(60);
+  this.forward(60);
+  this.turn(30);
+}

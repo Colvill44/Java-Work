@@ -1,0 +1,11 @@
+/* Practicing basic algorithms.  Part of Lab 6 */
+/* Accepting multiple inputs                   */
+import java.util.Scanner;
+
+public class Lab6PartE
+{
+  public static void main(String [] args) 
+  {
+
+  }
+}

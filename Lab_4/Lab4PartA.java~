@@ -1,0 +1,20 @@
+import java.awt.Color;
+public class Lab4PartA{
+  public static void main(String[] args){
+    World w = new World();
+    Turtle juan = new Turtle(100, 200, w);
+    juan.turn(30);
+    juan.forward(60);
+    juan.turn(60);
+    juan.forward(60);
+    juan.turn(60);
+    juan.forward(60);
+    juan.turn(60);
+    juan.forward(60);
+    juan.turn(60);
+    juan.forward(60);
+    juan.turn(60);
+    juan.forward(60);
+    juan.turn(30);
+  }
+}
