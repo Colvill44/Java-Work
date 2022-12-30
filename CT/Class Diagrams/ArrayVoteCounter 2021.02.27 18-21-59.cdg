@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="ArrayVoteCounter">
+  <ClassDiagramComponents>
+    <Class name="ArrayVoteCounter" package="votecounterproject" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="votes" type="String[]" visibility="private"/>
+        <Field name="spoiledVotes" type="String[]" visibility="private"/>
+        <Field name="sithSenateMembers" type="SithSenateMember[]" visibility="private"/>
+        <Field name="voteIndex" type="int" visibility="private"/>
+        <Field name="spoiledVoteIndex" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="setupCandidates" returnType="void" visibility="private"/>
+        <Method name="recordVote" returnType="void" visibility="public">
+          <Argument type="String" name="name"/>
+        </Method>
+        <Method name="reportResults" returnType="void" visibility="public"/>
+        <Method name="expandCapacity" returnType="String[]" visibility="private">
+          <Argument type="String[]" name="myArray"/>
+        </Method>
+        <Method name="getMemberVotes" returnType="int" visibility="public">
+          <Argument type="String" name="name"/>
+        </Method>
+        <Method name="getVoteIndex" returnType="int" visibility="public"/>
+        <Method name="getVotes" returnType="String[]" visibility="public"/>
+        <Method name="getSpoiledVotes" returnType="String[]" visibility="public"/>
+        <Method name="runRandomElectionResults" returnType="void" visibility="public" isStatic="true"/>
+        <Method name="generateRandomElectionData" returnType="void" visibility="private"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
